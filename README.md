@@ -1,4 +1,4 @@
-# Firmware
+# EDK2 UEFI Firmware with QEMU
 
 <pre>
 Prerequisites:
