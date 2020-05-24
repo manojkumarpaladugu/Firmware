@@ -1,7 +1,7 @@
 # Firmware
 
 <pre>
-To get a full, buildable repository, use following steps of git command<br />
+To get a full, buildable repository, use following steps of git command
   git clone https://github.com/manojkumarpaladugu/VisualUefiBios.git
   cd VisualUefiBios
   git submodule update --init
