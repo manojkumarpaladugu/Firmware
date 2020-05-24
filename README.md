@@ -8,7 +8,7 @@ Prerequisites:
   1. Download and install QEMU (https://www.qemu.org/download)
   2. Setup ASL compiler (https://github.com/tianocore/tianocore.github.io/wiki/Asl-Setup)
   3. Setup NASM compiler (https://github.com/tianocore/tianocore.github.io/wiki/Nasm-Setup)
-  4. Install Python 2.7.10 or later
+  4. Install Python 2.7.10 or later can be used with PYTHON_HOME
 </pre>
 
 <pre>
