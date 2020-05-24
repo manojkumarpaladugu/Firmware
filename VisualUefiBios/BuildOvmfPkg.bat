@@ -24,7 +24,7 @@ set CWD=%cd%
 echo %CWD%
 cd ..
 set WORKSPACE=%cd%
-set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-libc
+set PACKAGES_PATH=%WORKSPACE%\edk2
 set NASM_PREFIX=C:\nasm\
 
 cd edk2
