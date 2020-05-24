@@ -2,11 +2,11 @@
 
 <pre>
 To get a full, buildable repository, use following steps of git command<br />
-  git clone https://github.com/manojkumarpaladugu/VisualUefiBios.git<br />
-  cd VisualUefiBios<br />
-  git submodule update --init<br />
-  cd edk2<br />
-  git submodule update --init<br />
+  git clone https://github.com/manojkumarpaladugu/VisualUefiBios.git
+  cd VisualUefiBios
+  git submodule update --init
+  cd edk2
+  git submodule update --init
 
 If there's update for submodules, use following git commands to get the latest submodules code.<br />
   cd VisualUefiBios<br />
