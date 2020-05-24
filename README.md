@@ -1,4 +1,4 @@
-# EDK2 UEFI Firmware with QEMU
+# VisualUefiBios: EDK2 UEFI Firmware with QEMU
 
 Introduction:
 VisualUefiBios is a utility that lets you run EDK2 UEFI firmware inside QUEMU. This helps geeks provide build environment without messing up with lot of edk2 build commands. 
