@@ -1,5 +1,8 @@
 @echo off
 
+set ARCHITECTURE=%1
+set CONFIGURATION=%2
+
 if defined VS160COMNTOOLS (
   call "%VS160COMNTOOLS%\VsDevCmd.bat"
   set TOOL_SET=VS2019
@@ -17,9 +20,6 @@ if defined VS160COMNTOOLS (
   exit /b 1
 )
 
-set ARCHITECTURE=%1
-set CONFIGURATION=%2
-
 set WORKSPACE=%cd%
 set PACKAGES_PATH=%WORKSPACE%\edk2
 set NASM_PREFIX=C:\nasm\
@@ -33,3 +33,5 @@ if exist %cd%\BaseTools.Ready (
 )
 
 build -p OvmfPkg/OvmfPkg%ARCHITECTURE%.dsc -D SOURCE_DEBUG_ENABLE=TRUE -a %ARCHITECTURE% -b %CONFIGURATION% -t %TOOL_SET%
+
+cd ..
