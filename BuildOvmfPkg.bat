@@ -32,6 +32,6 @@ if exist %cd%\BaseTools.Ready (
   call edksetup.bat Rebuild
 )
 
-build -p OvmfPkg/OvmfPkg%ARCHITECTURE%.dsc -D SOURCE_DEBUG_ENABLE=TRUE -a %ARCHITECTURE% -b %CONFIGURATION% -t %TOOL_SET%
+call build -p OvmfPkg/OvmfPkg%ARCHITECTURE%.dsc -D SOURCE_DEBUG_ENABLE=TRUE -a %ARCHITECTURE% -b %CONFIGURATION% -t %TOOL_SET%
 
 cd ..
