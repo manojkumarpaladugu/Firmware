@@ -31,8 +31,6 @@ Obtaining source code:
 
 <pre>
 Build & Run:
-  1. Open VisualUefiBios.sln
-  2. Choose build configuration and build solution
-  3. Select Debug -> Start Without Debugging
-  4. Check logs folder for bios log
+  1. BuildOvmfPkg.bat [X64/IA32] [DEBUG/RELEASE]
+  2. RunOvmfPkgQemu.bat [X64/IA32] [DEBUG/RELEASE]
 </pre>
